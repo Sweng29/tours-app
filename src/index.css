@@ -382,9 +382,9 @@ main {
 
 .error {
   margin: auto;
-  width: 50%;
+  width: 80%;
+  padding: 5rem;
   border: 3px solid green;
-  padding: 10px;
 }
 
 /* Countdown component CSS */
@@ -408,6 +408,7 @@ main {
 }
 
 .show-counter {
+  margin-top: 10px;
   padding: 0.5rem;
 }
 
