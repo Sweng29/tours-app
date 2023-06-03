@@ -5,7 +5,7 @@ import { useCountdown } from "../hooks/useCountdown";
 const ExpiredNotice = ({ fetchTours }) => {
   return (
     <div className="expired-notice">
-      <span>Your can refresh Page now</span>
+      <h5>Your can refresh Page now</h5>
       <button style={{ marginTop: "2rem" }} onClick={() => fetchTours()}>
         Refresh
       </button>
