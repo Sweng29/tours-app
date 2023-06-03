@@ -42,7 +42,10 @@ const CountdownTimer = ({ targetDate, fetchTours }) => {
   } else {
     return (
       <section>
-        <h5>Something went worng, try again later after 15 mintues!</h5>
+        <h5>
+          Something went worng, try again later after {minutes} mintues{" "}
+          {seconds} seconds!
+        </h5>
         <ShowCounter
           days={days}
           hours={hours}
