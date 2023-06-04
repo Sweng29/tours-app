@@ -255,7 +255,6 @@ ul {
 
 button {
   cursor: pointer;
-  color: var(--white);
   background: var(--primary-500);
   border: transparent;
   letter-spacing: var(--letterSpacing);
